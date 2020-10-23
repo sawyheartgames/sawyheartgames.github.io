@@ -12,7 +12,7 @@ export default(function() {
         templateUrl: "/templates/homepage-tpl.html",
         controller: ["$scope", "$window", "$document", function($scope, $window) {
             $scope.projects = [{
-                name: "Sit Down, Pleaseee",
+                name: "Sit Down, Please",
                 path: "/images/sit-down-please.gif"
             }];
 
