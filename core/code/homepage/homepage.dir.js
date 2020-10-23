@@ -1,18 +1,18 @@
 import "./homepage-tpl.html";
 import "../../style/homepage/homepage.scss";
-import "../../images/header.gif"; //TO BE DELETED
-import "../../images/favicon.ico"; //TO BE DELETED
-import "../../images/pulvs.gif"; //TO BE DELETED
-import "../../images/contacts/instagram.png"; //TO BE DELETED
-import "../../images/contacts/twitter.png"; //TO BE DELETED
-import "../../images/projects-images/sit-down-please.gif"; //TO BE DELETED
+import "../../images/header.gif"; //TODO TO DELETE
+import "../../images/favicon.ico"; //TODO TO DELETE
+import "../../images/pulvs.gif"; //TODO TO DELETE
+import "../../images/contacts/instagram.png"; //TODO TO DELETE
+import "../../images/contacts/twitter.png"; //TODO TO DELETE
+import "../../images/projects-images/sit-down-please.gif"; //TODO TO DELETE
 
 export default(function() {
     return {
         templateUrl: "/templates/homepage-tpl.html",
         controller: ["$scope", "$window", "$document", function($scope, $window) {
             $scope.projects = [{
-                name: "Sit Down, Please",
+                name: "Sit Down, Please!",
                 path: "/images/sit-down-please.gif"
             }];
 

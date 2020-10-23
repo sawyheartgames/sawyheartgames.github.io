@@ -90,7 +90,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             inject: "head",
-            template: "./code/index.html"
+            template: "code/index.html"
         }),
         new MiniCssExtractPlugin({
             filename: "styles/[name].css",
