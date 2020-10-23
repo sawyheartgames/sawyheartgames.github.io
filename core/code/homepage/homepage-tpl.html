@@ -1,0 +1,25 @@
+<div class="position-relative root">
+    <div class="position-relative header-container-property">
+        <div class="position-relative header-gif-container-property"></div>
+    </div>
+    <div class="position-relative projects-container-property">
+        <div ng-repeat="project in projects" class="position-relative project-container-property">
+            <div class="position-relative project-property">
+                <div class="position-absolute project-name-property">{{project.name}}</div>
+                <div class="position-absolute full-background-size project-content-property" style='background-image: url("{{project.path}}");'></div>
+                <div class="position-absolute project-footer-property"></div>
+            </div>
+        </div>
+    </div>
+    <div class="position-relative footer-container-property">
+        <div class="position-relative footer-property">
+            <div class="position-absolute copyright-property">(C)2020 SawyHeartGames</div>
+            <div class="position-absolute contacts-container-property">
+                <div class="position-absolute full-background-size twitter-logo-property"
+                     ng-click="openPage('https://twitter.com/sawyheart')"></div>
+                <div class="position-absolute full-background-size instagram-logo-property"
+                     ng-click="openPage('https://www.instagram.com/sawyheart/')"></div>
+            </div>
+        </div>
+    </div>
+</div>

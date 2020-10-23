@@ -1,0 +1,138 @@
+@import "../common/common.scss";
+@import "./_animation.scss";
+
+.root {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Arial Black", "serif";
+  background-image: url("/images/pulvs.gif");
+  background-repeat: repeat;
+  overflow-x: hidden;
+
+  .header-container-property {
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+
+    .header-gif-container-property {
+      top: 50px;
+      left: calc(50% - 500px);
+      width: 1000px;
+      height: 200px;
+      background-image: url("/images/header.gif");
+      background-size: cover;
+    }
+  }
+
+  .projects-container-property {
+    top: 0;
+    left: 0;
+    min-height: calc(100% - 300px - 100px);
+    width: 100%;
+    text-align: center;
+    color: black;
+
+    .project-container-property {
+      display: inline-block;
+      height: 350px;
+      width: 350px;
+      padding: 20px;
+
+      .project-property {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+        box-shadow: 0 0 8px white;
+        background-color: white;
+
+        .project-name-property {
+          top: 10px;
+          left: 0;
+          width: 100%;
+          height: 33px;
+          border-bottom: 2px solid black;
+          text-align: center;
+        }
+
+        .project-content-property {
+          top: 45px;
+          left: 0;
+          width: 100%;
+          height: 260px;
+        }
+
+        .project-footer-property {
+          top: 305px;
+          left: 0;
+          width: 100%;
+          height: 33px;
+          border-top: 2px solid black;
+        }
+      }
+
+      .project-property:hover {
+        box-shadow: 0 0 15px white;
+      }
+    }
+  }
+
+  .footer-container-property {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+
+    .footer-property {
+      top: 40px;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #ffffff40;
+
+      .copyright-property {
+        bottom: 0;
+        left:0;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        font-size: 10px;
+      }
+
+      .contacts-container-property {
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        height: 60px;
+
+        .twitter-logo-property {
+          top: 10px;
+          right: 70px;
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+          background-color: black;
+          border-radius: 15px;
+          background-image: url("/images/twitter.png");
+        }
+
+        .instagram-logo-property {
+          top: 10px;
+          right: 20px;
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+          background-color: black;
+          border-radius: 15px;
+          background-image: url("/images/instagram.png");
+        }
+      }
+    }
+  }
+}
